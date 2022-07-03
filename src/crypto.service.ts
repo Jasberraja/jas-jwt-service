@@ -1,7 +1,6 @@
 import CryptoJS from 'crypto-js';
 
-
-export class CryptoService {
+export default class CryptoService {
   // Declare this key and iv values in declaration
   private key = CryptoJS.enc.Utf8.parse('service-jwt-jass');
   private iv = CryptoJS.enc.Utf8.parse('service-jwt-jass');
